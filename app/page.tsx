@@ -9,10 +9,11 @@ import { FloatingNav } from '@/components/ui/FloatingNavbar'
 import { navItems } from '@/data'
 import Image from 'next/image'
 import { FaHome } from 'react-icons/fa'
+import Work from '@/components/Work'
+import Page from './Test/page'
 export default function Home(){
-  return (
-    <main className = "relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className = "max-x-7xl w-full">
+     <main className = "relative bg-black-100 flex justify-center items-center flex-col  w-full  min-h-screen overflow-clip sm:px-10 px-5">
+      <div className = "w-max mx-auto">
         <FloatingNav 
           navItems={navItems}
         />
@@ -22,8 +23,12 @@ export default function Home(){
         <Clients/>
         <Experience/>
         <Approach/>
+       
+       <Page/>
+        
+        <Work/>
         <Footer/>
       </div>
     </main>
-  )
+  
 }

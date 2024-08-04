@@ -38,7 +38,7 @@ const Hero = () => {
           <p className = "mb-4 md:tracking-wider text-center text-sm md:text-lg lg:text-2xl">
             Hi I&apos;m Oliver, a Next.js developer based in the United Kingdom
           </p>
-          <a href = "#about">
+          <a href = "/about">
             <Button 
             title = "Show my work"
             icon ={<FaLocationArrow/>}

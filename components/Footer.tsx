@@ -2,8 +2,9 @@ import React from 'react'
 import Button from './ui/Button'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { socialMedia } from '@/data'
+import TextGradient from './ui/TextGradient'
 
-const Footer = () => {
+  const Footer = () => {
   return (
     <footer className = "w-full pt-20 pb-10" id = "contact">
     <div className = "w-full absolute left-0 -bottom-72 min-h-9">
@@ -28,9 +29,7 @@ const Footer = () => {
                     </div>
             ))}
         </div>
-        <p className = "md:text-base text-sm md:font-normal flex-end font-light">
-            Copyright © 2024 Oliver Stevenson
-        </p>
+        <TextGradient text = "Copyright 2024 © Oliver Stevenson"/>
         
       </div>
     </footer>

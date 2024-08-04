@@ -14,7 +14,7 @@ const Experience = () => {
             <Button 
             key = {id}
             duration = {Math.floor(Math.random()*10000) + 10000}
-            bordeRadius = "1.75rem"
+            borderRadius = "1.75rem"
             className = "flex-1 text-white border-neutral-200  dark:border-slate-800">
                 <div className = "flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
                     <img src = {thumbnail} alt = {title} className = "lg:w-32 md:w-20 w-16"/>
